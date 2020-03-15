@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 # Define the Createor and Maintainer of this image
-MAINTAINER Vivek Ranjan <Vivek.Ranjan@cicd.com>
+MAINTAINER Vvek Ranjan <Vivek.Ranjan@cicd.com>
 
 # Run the command to install apache as a prerequisite
 RUN apt-get update && apt-get install -y apache2
